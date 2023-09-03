@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: '/gh-pages-test',
+    basePath: '/porfolio-next',
+    assetPrefix: '/porfolio-next/',
 }
 
 module.exports = nextConfig
