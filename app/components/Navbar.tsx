@@ -41,7 +41,7 @@ export const Navbar = () => {
         className="cursor-pointer mx-4 sm:mx-6 animate-bounce-xy"
       >
         <Image
-          src="/porfolio-next/logo192.png"
+          src={`${process.env.exportPath}/logo192.png`}
           alt="Vercel Logo"
           width={50}
           height={30}
